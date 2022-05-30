@@ -5,6 +5,13 @@ Actually this is done in AWS console so only handler code to be uploaded.
   and create short url.
    
    End_Point -  https://535h5t11ue.execute-api.us-east-1.amazonaws.com/dev/urlShortener-create
+     method - post
+     input - 
+         {
+         "shortUrl":"leetcode",
+          "longUrl":"https://leetcode.com/problems/maximum-subarray/"
+          }
+     
    
  2. Second lambda funtion to redirect long url through short url
   
